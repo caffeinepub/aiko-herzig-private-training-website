@@ -1,0 +1,25 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add studio names to Locations section",
+  "requirements": [
+    {
+      "id": "REQ-2",
+      "summary": "Update the Location component to display named studio entries with studio names prominently above addresses",
+      "acceptanceCriteria": [
+        "The Locations section heading reads 'Locations'.",
+        "The first location entry displays 'Studio Belvedere' as a name/title above 'Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria'.",
+        "The second location entry displays 'Clinicus Natura' as a name/title above 'Rua do Raio nº26, Braga, Portugal'.",
+        "The third entry displays 'Off location, travel and via Zoom may be available upon request' without a studio name prefix.",
+        "No other addresses or location references appear in the component."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Location.tsx",
+          "operation": "modify",
+          "description": "Update the location entries to display studio names above addresses. Add 'Studio Belvedere' as a prominent heading above the Vienna address, 'Clinicus Natura' above the Braga address, and keep the third entry (Zoom/travel option) without a studio name prefix. Ensure the section heading remains 'Locations' and maintain the existing two-column layout with the studio image."
+        }
+      ]
+    }
+  ]
+}

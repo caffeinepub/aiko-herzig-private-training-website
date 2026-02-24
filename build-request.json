@@ -1,0 +1,43 @@
+{
+  "kind": "build_request",
+  "title": "Add studio names to Locations section",
+  "projectName": "Aiko Herzig Training",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-2",
+      "text": "Update the Location component to display named studio entries: 'Studio Belvedere' as the name for Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria; 'Clinicus Natura' as the name for Rua do Raio nº26, Braga, Portugal; and 'Off location, travel and via Zoom may be available upon request' as a third unlabelled entry (no studio name). Each named entry should display the studio name prominently above its address.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Studio Belvedere\nPrinz Eugen Straße 48/ 1-2, 1040 Vienna, Austria",
+          "Clinicus Natura\nRua do Raio nº26, Braga, Portugal",
+          "Off location, travel and via Zoom may be available upon request"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Locations section heading reads 'Locations'.",
+        "The first location entry displays 'Studio Belvedere' as a name/title above 'Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria'.",
+        "The second location entry displays 'Clinicus Natura' as a name/title above 'Rua do Raio nº26, Braga, Portugal'.",
+        "The third entry displays 'Off location, travel and via Zoom may be available upon request' without a studio name prefix.",
+        "No other addresses or location references appear in the component."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not alter any files listed in frontend.immutablePaths.",
+    "Only frontend/src/components/Location.tsx needs to be modified."
+  ],
+  "nonGoals": [
+    "Adding new backend logic or data persistence for location data.",
+    "Changing any other section of the page.",
+    "Modifying the studio image or layout beyond the text content update."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

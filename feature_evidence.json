@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-location-component-to-display-named-studio-entries-studio-belvedere-as-the-name-for-prinz-eugen-stra-e-48-1-2-1040-vienna-austria-clinicus-natura-as-the-name-for-rua-do-raio-n-26-braga-portugal-and-off-location-travel-and-via-zoom-may-be-available-upon-request-as-a-third-unlabelled-entry-no-studio-name-each-named-entry-should-display-the-studio-name-prominently-above-its-address",
+      "featureTitle": "Update the Location component to display named studio entries: 'Studio Belvedere' as the name for Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria; 'Clinicus Natura' as the name for Rua do Raio nº26, Braga, Portugal; and 'Off location, travel and via Zoom may be available upon request' as a third unlabelled entry (no studio name). Each named entry should display the studio name prominently above its address.",
+      "files": [
+        "frontend/src/components/Location.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T17:38:24.058Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-2",
+        "summary": "Update the Location component to display named studio entries: 'Studio Belvedere' as the name for Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria; 'Clinicus Natura' as the name for Rua do Raio nº26, Braga, Portugal; and 'Off location, travel and via Zoom may be available upon request' as a third unlabelled entry (no studio name). Each named entry should display the studio name prominently above its address.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Location.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Location.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/Location.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

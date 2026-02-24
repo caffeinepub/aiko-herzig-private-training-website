@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-update-the-location-component-to-display-the-following-three-location-entries-under-the-locations-heading-1-prinz-eugen-stra-e-48-1-2-1040-vienna-austria-2-rua-do-raio-n-26-braga-portugal-3-off-location-travel-and-via-zoom-may-be-available-upon-request-remove-any-previous-location-addresses-e-g-cascais-lisbon-references",
+      "title": "Update the Location component to display the following three location entries under the 'Locations' heading: (1) Prinz Eugen Straße 48/ 1-2, 1040 Vienna, Austria; (2) Rua do Raio nº26, Braga, Portugal; (3) Off location, travel and via Zoom may be available upon request. Remove any previous location addresses (e.g. Cascais/Lisbon references).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-location-component-to-display-named-studio-entries-studio-belvedere-as-the-name-for-prinz-eugen-stra-e-48-1-2-1040-vienna-austria-clinicus-natura-as-the-name-for-rua-do-raio-n-26-braga-portugal-and-off-location-travel-and-via-zoom-may-be-available-upon-request-as-a-third-unlabelled-entry-no-studio-name-each-named-entry-should-display-the-studio-name-prominently-above-its-address",
+      "title": "Update the Location component to display named studio entries: 'Studio Belvedere' as the name for Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria; 'Clinicus Natura' as the name for Rua do Raio nº26, Braga, Portugal; and 'Off location, travel and via Zoom may be available upon request' as a third unlabelled entry (no studio name). Each named entry should display the studio name prominently above its address.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Update Locations section to show named locations: 'Studio Belvedere' (Prinz Eugen Straße 48/1-2, 1040 Vienna, Austria), 'Clinicus Natura' (Rua do Raio nº26, Braga, Portugal), and 'Off location, travel and via Zoom may be available upon request'",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Update Locations section content",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
