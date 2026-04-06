@@ -17,6 +17,13 @@ export function Location() {
 
             <div>
               <p className="font-medium text-foreground mb-1">
+                Penthouse Sports
+              </p>
+              <p>Johannesgasse 25, 1010 Vienna, Austria</p>
+            </div>
+
+            <div>
+              <p className="font-medium text-foreground mb-1">
                 Clinicus Natura
               </p>
               <p>Rua do Raio nº26, Braga, Portugal</p>
