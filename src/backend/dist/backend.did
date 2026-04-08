@@ -1,0 +1,15 @@
+type Inquiry = 
+ record {
+   email: text;
+   id: nat;
+   message: text;
+   name: text;
+   timestamp: int;
+ };
+service : {
+  deleteInquiry: (id: nat) -> ();
+  getAllInquiries: () -> (vec Inquiry) query;
+  getInquiriesByEmail: (email: text) -> (vec Inquiry) query;
+  getInquiry: (id: nat) -> (Inquiry) query;
+  submitInquiry: (name: text, email: text, message: text) -> ();
+}
